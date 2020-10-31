@@ -1,0 +1,438 @@
+*{
+  margin:0; padding:0; box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+  }
+  
+  header {width:100%; height:100vh;
+     background-image:url("main.jpg");
+	 background-repeat:no;
+	 background-size:cover;
+	 }
+	nav{
+		width:100; height:13vh;
+		background:transparent;
+		color:white; display:flex; justify-content:space-between;
+		align-content:center;
+		justify-content:center;
+	}
+	nav .menu{
+		width:40%; 
+		display:flex; justify-content:space-around;
+		text-align:center;    
+	}
+	nav .menu a{
+		width:25%;
+		text-decoration:none; color:white;
+		font-weight:bold;
+		text-align:center;
+		margin:50px;
+		font-size:13px;
+		}
+		.logo{
+    height: 165px;
+    width: auto;
+    margin: 20px 0px 0px -30px;
+    position: static;
+		}
+	main{
+		width:100%;
+		height:85vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	section h1{
+		font-size:60px; font-weight:200px; letter-spacing:3px;
+		color:#FFFFFF;
+		margin:40px;
+		font-family:ui sans-serif;
+		height: 150px;
+		line-height: 2;
+	}
+	
+	section p{
+		font-size:25px;
+		color:#eee;
+		word-spacing:2px;
+		margin-bottom:25px;
+		text-shadow:1px 1px 1px black;
+	}
+	/* second page*/
+	html {
+		box-sizing: border-box;
+	  }
+	  
+	  *, *:before, *:after {
+		box-sizing: inherit;
+	  }
+	  
+	  .column-1 {
+		float: left;
+		width: 25%;
+		margin-bottom: 16px;
+		padding: 10px 10px 10px 10px;
+	  }
+	  
+	  .card-1 {
+		margin: 8px;
+		height:auto;
+	  }
+	  
+	  
+	  }
+	  .team-section-1 p {
+		  font-size:18px;
+		  font-family:ui-sans-serif;
+		  color:#000000;
+		  text-align:center;
+	  }
+	   .card-1 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		width: 20%;
+	   }
+	  
+	   .team-conatainer-1 h4 {
+		   line-height: 2;
+		   letter-spacing: 1px;
+		   font-size:18px;
+		   color:#FFFFFF;
+		   text-align:center;
+		   text-transform:uppercase;
+	   }
+	   .team-conatainer-1 p {
+		       font-family: Josefin Sans;
+               font-size: 14px;
+               line-height: 28px;
+               letter-spacing: 0.2px;
+			   color:#FFFFFF;
+			   text-align: center;
+			
+	   }
+	  
+	  .team-container-1::after, .row-1::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	  .headline {
+  width: 100%;
+  height: 50vh;
+  min-height: 350px;
+  background: #145085;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+  .headline h1 {
+	  font-size:60px;
+	  color:#FFFFFF;
+	  text-align:center;
+	  font-family: serif;
+	  } 
+	  
+	  .headline p {
+		  font-size:18px;
+		  font-family:ui-sans-serif;
+		  color:#FFFFFF;
+		  text-align:center;
+		  font-weight:500;
+		  line-height: 1;
+		  
+	  }
+	  
+.row-1 {
+	background-color:#145085;
+}
+   
+	section a {
+		padding: 12px 30px;
+		border-radius:4px;
+		outline:none;
+		font-size:20px;
+		font-weight:500px;
+		text-decoration:none;
+	    letter-spacing:1px;}
+	section .btnone{
+		background:#fff;
+		color:#0088AA;
+		border-radius:24px;
+		text-transform:uppercase;
+		transition-duration:1s;
+		
+		padding:16px 38px;
+		font-size:13px;
+		font-weight:bold;
+		margin:none;
+		text-decoration:none;
+		
+		}
+     .btnone:hover{
+			background-color: #145085;
+			opacity: 0.6;
+			color:#FFFFFF;
+			-webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+		}
+		section .btntwo{
+			background:#C92100;
+			color:#FFFFFF;
+			border-radius:24px;
+			text-transform:uppercase;
+			padding:16px 38px;
+			font-size:13px;
+		    font-weight:bold;
+			margin:0px 0px 0px 30px;
+			text-decoration:none;
+			transition-duration:1s;
+		}
+		.btntwo:hover{
+			background:#145085;
+			opacity:0.6;
+	    	color:#FFFFFF;
+		-webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+	}
+		
+		section .btnthree{
+			 display: flex;
+  text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    padding: 8px 6px;
+    width: 70px;
+    height: 65px;
+    cursor: pointer;
+    background-color: #ff0076;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    box-shadow: -5px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  font-size:12px;
+  color:#fff;
+  font-weight:700;
+		}
+ .btnthree:hover{
+			background:black;
+			opacity:0.8;
+		color:white;}
+		
+		section .btnfour{
+			 display: flex;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    padding: 8px 6px;
+    width: 70px;
+    height: 65px;
+    cursor: pointer;
+    background-color:#5a3cf3;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    box-shadow: -5px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  font-size:12px;
+  color:#fff;
+  font-weight:700;
+  margin-top:110px;
+		}
+ .btnfour:hover{
+			background:black;
+			opacity:0.8;
+		color:#FFFFFF;}
+/*third section start here*/
+.fluid {width:100%; height:100vh;
+	background-image:url("third.jpg");
+	background-repeat:no;
+	background-size:cover;
+	}
+	.hunk {
+		background-color:#c92100BD;
+		opacity: 1;
+		width: 100%;
+		height: 100%;}
+	.hunk h1{
+		text-align: center;
+		font-family: 'Josefin Sans';
+		font-size: 60px;
+		padding: 105px 0px 0px 0px;
+		color: #FFFFFF;
+	}
+	.hunk p {
+		text-align: center;
+		font-family: 'Josefin Sans';
+		font-size: 18px;
+		font-weight: 500;
+		padding: 23px 0px;
+		color: #FFFFFF;
+	}
+	.about{
+		column-count: 2;
+		column-gap:70px;
+		color:#FFFFFF;
+		margin: 20px 200px;
+		font-size: 20px;
+		font-size: 17px;
+		font-family: 'Josefin Sans';
+		text-align:justify;
+		line-height: 25px;
+	}
+	  .social-icon{
+		  margin: 0% 35%;
+	  }
+	  
+	.social-icon i{
+           background-color:transparent;
+			border-radius: 50%;
+			border: 2px solid #145085;
+			padding: 13px;	  
+	}
+   .social-icon i:hover{
+		background-color: #FFFFFF;
+		-webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+	}
+	.social-icon li {
+		display:inline;
+		float:left;
+		
+	}
+	li a {
+		padding: 10px;
+	}
+	/*.fa-facebook-f:before {
+		content: "\f39e";
+		color: #145085;
+	}
+	.fa-twitter:before{
+		   content: "\f099";
+			color: #145085;
+	}
+	.fa-linkedin-in:before{
+		content: "\f0e1";
+		color: #145085;
+	}
+    .fa-instagram:before{
+		content: "\f16d";
+		color: #145085;}*/
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		  
+	  }
+	  .social-social-fb a {
+		  color:#145085;
+	  }
+	  
+
+	  html {
+		box-sizing: border-box;
+	  }
+	  
+	  *, *:before, *:after {
+		box-sizing: inherit;
+	  }
+	  
+	  .column {
+		float: left;
+		width: 25%;
+		margin-bottom: 16px;
+		padding: 10px 10px 10px 10px;
+	  }
+	  
+	  .card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		margin: 8px;
+		height:500px;
+	  }
+	  
+	  .team-section h2 {
+		  font-size:60px;
+		  font-family:ui-sans-serif;
+		  text-align: center;
+		  text-transform:capitalize;
+		  color: #000000;
+	  }
+	  .team-section p {
+		  font-size:18px;
+		  font-family:ui-sans-serif;
+		  color:#000000;
+		  text-align:center;
+		  font-weight:600;
+	  }
+	   .card img {
+		   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		   padding:25px 10px 10px 10px;
+		   width:100%;
+		   height:65%;
+	   }
+		
+		.team-container h3  {
+			text-align:center;
+			color:#C92100;
+			font-size:18px;
+			font-family:ui-sans-serif;
+			text-transform:capitalize;
+			padding:15px  0px;
+			opacity:0.7;
+			text-decoration: none;
+		}
+		 .team-container h4  {
+			text-align:center;
+			color:#C92100;
+			font-size:18px;
+			font-family:ui-sans-serif;
+			text-transform:capitalize;
+			padding: 15px 0px;
+			text-decoration: none;
+		}
+	  
+	  .team-container::after, .row::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	.icon li{
+		  display:inline;
+		  padding:20px;
+	  } 
+	  .icon a {
+		  color:#000000;
+	  }
+	  .five :hover{
+		color: grey;
+		
+	  }
+	  @media screen and (max-width: 650px) {
+		.column {
+		  width: 100%;
+		  display: block;
+		}
+	  }
+	
+	  
